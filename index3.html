@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        body {
+            background-color: #2c2c2c; /* Cinza escuro */
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        a {
+            color: #4CAF50; /* Verde */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+
+<header>
+
+<style>.ocultar{display:none;}</style> 
+<style>
+		.ocultar {
+			color: #ffffff;
+			background-color: #007ae6;
+			font-size: 19px;
+			border: 1px solid #4983ee;
+			border-radius: 10px;
+			padding: 15px 50px;
+			cursor: pointer
+			
+			
+		}
+		.ocultar:hover {
+			color: #2d63c8;
+			background-color: #ffffff;
+		}
+	</style>
+
+</header>
+
+<body>
+
+<a href="https://go.perfectpay.com.br/PPU38CO3Q65" style="text-decoration:none" target="_top"><button class="ocultar">Entrar para a Mentoria C3</button></a>
+
+
+    <div class="container">
+        <h1>Bem-vindo ao Meu Site</h1>
+        <p>Este é um exemplo de página simples com fundo cinza escuro e fonte branca.</p>
+        <p><a href="#sobre">Saiba mais</a></p>
+    </div>
+</body>
+
+<script type="text/javascript">
+var tmin = 0;
+var tseg = 04;
+  
+var tpitch = (tmin * 60000) + (tseg * 1000);
+setTimeout('show()', tpitch);
+console.log('pitch em:', tpitch,'ms - totalizando',tmin,'min','e',tseg,'seg'); 
+function show(){
+var list = document.getElementsByClassName('ocultar');
+for (var i = 0; i < list.length; i++) {
+    list[i].style.visibility = 'visible';
+    list[i].style.display = 'block';
+    }
+}
+</script>
+
+</html>
